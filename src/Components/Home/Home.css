@@ -1,0 +1,11 @@
+#home-parent {
+    height: 700px;
+    background: url('../../assets/auto-shop-background.webp') center/cover no-repeat;
+    z-index: -1;
+}
+#background-color-container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(240,128,128,0.3) 0%, rgba(240,128,128,0.7973389184775472) 51%);
+    z-index: 1;
+}

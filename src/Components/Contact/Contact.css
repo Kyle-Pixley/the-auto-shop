@@ -1,0 +1,54 @@
+#top-banner {
+    background-color: lightcoral;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#contact-line {
+    display: flex;
+}
+#phone-link {
+    display: flex;
+    text-decoration: none;
+}
+#phone-icon {
+    height: 25px;
+}
+#phone-number {
+    font-size: 19px;
+    margin-left: 10px;
+    margin-right: 30px;
+    color: black;
+}
+#phone-number:hover {
+    color: lightblue;
+}
+#email-link {
+    display: flex;
+    text-decoration: none;
+}
+#email-icon {
+    height: 25px;
+}
+#email {
+    color: black;
+    font-size: 19px;
+    margin-left: 10px;
+}
+#email:hover {
+    color: lightblue;
+}
+#facebook-icon {
+    height: 24px;
+    margin-left: 25px;
+}
+#x-icon {
+    height: 24px;
+    margin-left: 15px;
+}
+#title-name-parent {
+    margin-right: 40px;
+}
+#title-name {
+    font-size: 21px;
+}

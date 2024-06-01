@@ -1,0 +1,27 @@
+#bottom-banner-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background: rgb(250,94,94);
+    background: linear-gradient(0deg, rgba(250,94,94,1) 11%, rgba(233,170,170,1) 100%); 
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 29px;
+}
+#business-hours-parent {
+    display: flex;
+    flex-direction: column;
+}
+#business-hours-title, #popular-services-title {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3px;
+}
+#address-link {
+    margin-bottom: 8px;
+    color: aliceblue;
+}
+.hours-list-items, .services-list-items {
+    margin-bottom: 3px;
+}

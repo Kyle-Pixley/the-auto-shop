@@ -8,7 +8,6 @@ import './Contact.css'
 function Contact() {
 
     const emailAddress = 'autoshop@auto.shop'
-    //! change this address ^^^^^^^^^
 
   return (
     <div id='top-banner'>

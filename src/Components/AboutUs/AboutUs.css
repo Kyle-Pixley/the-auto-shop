@@ -1,0 +1,63 @@
+#about-us-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    overflow: auto;
+}
+#about-us-banner {
+    background: rgb(233,170,170);
+    background: linear-gradient(0deg, rgba(233,170,170,1) 0%, rgba(250,94,94,1) 85%); 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+    min-height: 200px;
+}
+#banner-title {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -33px;
+    font-size: 50px;
+}
+#banner-text {
+    font-size: 35px;
+    margin-top: 12px;
+}
+#history-parent {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#history-text-parent {
+    width: 50%;
+}
+#our-history-title {
+    margin: 12px;
+}
+#our-history-text, #our-history-text-2, #philosophy-text, #philosophy-text-2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-indent: 35px;
+    line-height: 1.5;
+}
+#image-border {
+    height: 430px;
+    width: 258px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#philosophy-parent {
+    margin: 12px 130px;
+    margin-bottom: 50px;
+}
+#philosophy-title {
+    margin-bottom: 12px;
+}
+#father-daughter-mechanics-image {
+    height: 400px;
+    width: 228px;
+}

@@ -16,3 +16,6 @@
     font-size: 20px;
     margin-left: 40px;
 }
+.nav-buttons:hover {
+    cursor: pointer;
+};

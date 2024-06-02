@@ -1,8 +1,9 @@
-import React, {useState} from 'react'
-import Logo from '../../assets/the-auto-shop-logo.png'
-import Home from '../Home/Home.jsx'
-import './Nav.css'
-import AboutUs from '../AboutUs/AboutUs.jsx'
+import React, {useState} from 'react';
+import Logo from '../../assets/the-auto-shop-logo.png';
+import Home from '../Home/Home.jsx';
+import './Nav.css';
+import AboutUs from '../AboutUs/AboutUs.jsx';
+import RepairServices from '../RepairServices/RepairServices.jsx';
 
 function Nav() {
 
@@ -34,7 +35,8 @@ function Nav() {
                 style={{color: activeButton === 'about-us' ? 'rgb(240,128,128)' : 'black'}}
                 >About Us</button>
 
-                <button id='repair-services-button' className='nav-buttons' onClick={buttonClick}>Repair Services</button>
+                <button id='repair-services-button' className='nav-buttons' onClick={() => changeActiveComponent('repair-services')}
+                style={{color: activeButton === 'repair-services' ? 'rgb(240,128,128)' : 'black'}}>Repair Services</button>
 
                 <button id='repair-services-button' className='nav-buttons' onClick={buttonClick}>Reviews</button>
 
@@ -42,9 +44,10 @@ function Nav() {
             </div>
         </div>
 
-        <div>
+        <div id='active-component-container'>
             {activeComponent === 'home' && <Home />}
             {activeComponent === 'about-us' && <AboutUs />}
+            {activeComponent === 'repair-services' && <RepairServices />}
         </div>
     </div>
   )

@@ -1,0 +1,69 @@
+#repair-services-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    overflow: auto;
+}
+#intro-background {
+    background-image: url('../../assets/blur-engine.png');
+    background-position: top;
+    width: 100vw;
+    min-height: 610px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+}
+#intro-background-color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 120px;
+    background: rgb(250,94,94);
+    background: linear-gradient(0deg, rgba(250,94,94,.8) 11%, rgba(233,170,170,.8) 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+    height: 100%;
+}
+#repair-services-title {
+    margin: 30px auto 40px auto;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+#intro-text-and-image {
+    display: flex;
+}
+#intro-text-parent {
+    padding: 0 40px;
+}
+.intro-texts {
+    text-indent: 22px;
+    font-size: 22px;
+    color: #333333;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+#margaret-working-image {
+    height: 350px;
+}
+#repair-types-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    /* margin-bottom: 500px; */
+}
+#repair-types-list {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 13vw;
+}
+.check-repair-pairs {
+    display: flex;
+    margin: 20px;
+}
+.checkmark-image {
+    height: 30px;
+}
+.repair-texts {
+    font-size: 25px;
+    margin-left: 12px;
+}

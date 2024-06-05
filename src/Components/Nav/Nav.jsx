@@ -4,6 +4,7 @@ import Home from '../Home/Home.jsx';
 import './Nav.css';
 import AboutUs from '../AboutUs/AboutUs.jsx';
 import RepairServices from '../RepairServices/RepairServices.jsx';
+import Reviews from '../Reviews/Reviews.jsx';
 
 function Nav() {
 
@@ -38,7 +39,8 @@ function Nav() {
                 <button id='repair-services-button' className='nav-buttons' onClick={() => changeActiveComponent('repair-services')}
                 style={{color: activeButton === 'repair-services' ? 'rgb(240,128,128)' : 'black'}}>Repair Services</button>
 
-                <button id='repair-services-button' className='nav-buttons' onClick={buttonClick}>Reviews</button>
+                <button id='repair-services-button' className='nav-buttons' onClick={() => changeActiveComponent('reviews')}
+                style={{color: activeButton === 'reviews' ? 'rgb(240,128,128)' : 'black'}}>Reviews</button>
 
                 <button id='repair-services-button' className='nav-buttons' onClick={buttonClick}>Contact Us</button>
             </div>
@@ -48,6 +50,7 @@ function Nav() {
             {activeComponent === 'home' && <Home />}
             {activeComponent === 'about-us' && <AboutUs />}
             {activeComponent === 'repair-services' && <RepairServices />}
+            {activeComponent === 'reviews' && <Reviews />}
         </div>
     </div>
   )

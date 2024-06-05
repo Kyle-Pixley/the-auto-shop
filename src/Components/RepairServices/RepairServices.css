@@ -3,6 +3,7 @@
     flex-direction: column;
     height: 90vh;
     overflow: auto;
+    background-color: seashell;
 }
 #intro-background {
     background-image: url('../../assets/blur-engine.png');
@@ -48,7 +49,6 @@
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
-    /* margin-bottom: 500px; */
 }
 #repair-types-list {
     margin-top: 30px;

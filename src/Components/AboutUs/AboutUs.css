@@ -3,6 +3,7 @@
     flex-direction: column;
     height: 90vh;
     overflow: auto;
+    background-color: seashell;
 }
 #about-us-banner {
     background: rgb(233,170,170);

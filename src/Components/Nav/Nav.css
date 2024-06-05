@@ -1,8 +1,10 @@
 #nav-banner-container {
     display: flex;
     justify-content: space-between;
-    margin: 0 40px;
+    padding: 0 40px;
     z-index: 2;
+    background-color: #fff8f5;
+    border-bottom: 1px solid #fdeee8;
 }
 #nav-logo {
     height: 85px;

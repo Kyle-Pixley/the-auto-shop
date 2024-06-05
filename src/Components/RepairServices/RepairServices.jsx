@@ -1,5 +1,6 @@
 import React from 'react';
 import './RepairServices.css';
+import BottomBanner from '../BottomBanner/BottomBanner.jsx';
 import RepairServices2 from './RepairServices2/RepairServices2.jsx';
 import MargaretWorkingImage from '../../assets/margaret-engine.webp';
 import CheckMark from '../../assets/checkmark.png';
@@ -55,6 +56,7 @@ function RepairServices() {
             </div>
         </div>
         <RepairServices2 />
+        <BottomBanner />
     </div>
   )
 }

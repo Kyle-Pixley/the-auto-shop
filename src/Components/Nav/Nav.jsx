@@ -5,8 +5,9 @@ import './Nav.css';
 import AboutUs from '../AboutUs/AboutUs.jsx';
 import RepairServices from '../RepairServices/RepairServices.jsx';
 import Reviews from '../Reviews/Reviews.jsx';
+import ContactUs from '../ContactUs/ContactUs.jsx';
 
-function Nav() {
+function Nav({ isDesktop }) {
 
     const [ activeComponent, setActiveComponent ] = useState('home');
     const [ activeButton, setActiveButton ] = useState('home');
@@ -38,19 +39,22 @@ function Nav() {
 
                 <button id='repair-services-button' className='nav-buttons' onClick={() => changeActiveComponent('repair-services')}
                 style={{color: activeButton === 'repair-services' ? 'rgb(240,128,128)' : 'black'}}>Repair Services</button>
-
+            {isDesktop ? 
                 <button id='repair-services-button' className='nav-buttons' onClick={() => changeActiveComponent('reviews')}
                 style={{color: activeButton === 'reviews' ? 'rgb(240,128,128)' : 'black'}}>Reviews</button>
-
-                <button id='repair-services-button' className='nav-buttons' onClick={buttonClick}>Contact Us</button>
+            : null}
+                
+                <button id='repair-services-button' className='nav-buttons' onClick={() => changeActiveComponent('contact-us')}
+                style={{color: activeButton === 'contact-us' ? 'rgb(240,128,128)' : 'black'}}>Contact Us</button>
             </div>
         </div>
 
         <div id='active-component-container'>
-            {activeComponent === 'home' && <Home />}
+            {activeComponent === 'home' && <Home isDesktop={isDesktop}/>}
             {activeComponent === 'about-us' && <AboutUs />}
             {activeComponent === 'repair-services' && <RepairServices />}
             {activeComponent === 'reviews' && <Reviews />}
+            {activeComponent === 'contact-us' && <ContactUs />}
         </div>
     </div>
   )

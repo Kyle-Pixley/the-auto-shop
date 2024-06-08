@@ -12,7 +12,7 @@
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     width: 100%;
-    height: 160px;
+    min-height: 160px;
     background: rgb(233,170,170);
     background: linear-gradient(0deg, rgba(233,170,170,1) 0%, rgba(250,94,94,1) 80%); 
 }
@@ -37,6 +37,7 @@
 }
 #customer-reviews-title {
     align-self: center;
+    color: black;
 }
 #reviews-parent {
     display: grid;
@@ -55,4 +56,12 @@
     font-size: 22px;
     line-height: 33px;
     padding: 12px;
+}
+.review-text-author-parents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

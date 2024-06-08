@@ -25,7 +25,7 @@ function RepairServices() {
         </div>
 
         <div id='repair-types-parent'>
-            <h1>Our technicians are certified to repair:</h1>
+            <h1 style={{color: 'black'}}>Our technicians are certified to repair:</h1>
             <div style={{height:'6px',width:'35vw',backgroundColor: 'rgb(240,128,128)',marginTop: '18px'}}></div>
 
             <div id='repair-types-list'>

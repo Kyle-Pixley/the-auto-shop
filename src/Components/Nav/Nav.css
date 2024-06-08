@@ -21,6 +21,18 @@
 .nav-buttons:hover {
     cursor: pointer;
 }
-#active-component-container {
-    height: fit-content;
+
+@media (max-width: 700px) {
+    #nav-banner-container {
+        padding: 0 8px;
+        justify-content: space-evenly;
+    }
+    #nav-logo {
+        height: 50px;
+    }
+    .nav-buttons {
+        margin-left: 5vw;
+        font-size: 14px;
+        font-weight: 600;
+    }
 }

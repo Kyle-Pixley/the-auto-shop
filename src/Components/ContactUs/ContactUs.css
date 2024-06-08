@@ -1,0 +1,94 @@
+#contact-us-container {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 90vh;
+    background-color: seashell;
+}
+#contact-us-banner-parent {
+    background: url(../../assets/auto-shop-background-cropped.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150vw;
+    align-self: center;
+    min-height: 25vh;
+    height: 30vh;
+    clip-path: ellipse(50% 99% at 50% 0%);
+}
+#contact-us-banner-color-parent {
+    background-color: rgba(240,128,128,0.75);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contact-banner-title, #contact-banner-title-2, #contact-banner-text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#contact-banner-title {
+    margin-top: -1%;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+#contact-banner-title-2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+#contact-banner-text {
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+}
+#contact-info-form-parent, .contact-parents {
+    display: flex;
+    align-items: center;
+}
+#contact-info-form-parent {
+    margin-top: 6vh;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 200px;
+}
+.contact-parents {
+    margin-top: 20px;
+}
+.contact-texts {
+    font-size: 20px;
+}
+.phone-images, .mail-images {
+    width: 40px;
+    margin-right: 20px;
+    filter: invert(48%) sepia(57%) saturate(1913%) hue-rotate(325deg) brightness(97%) contrast(93%);
+}
+.phone-images {
+    height: 35px;
+}
+.mail-images {
+    height: 30px;
+}
+.socials-parents {
+    margin-top: 20px;
+}
+#facebook-icon-c, #x-icon-c {
+    filter: invert(48%) sepia(57%) saturate(1913%) hue-rotate(325deg) brightness(97%) contrast(93%);
+    height: 35px;
+    margin-right: 40px;
+}
+#x-icon-c {
+    margin-right: 21px;
+}
+#facebook-link, #x-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#contact-paragraph-parent {
+    width: 450px;
+    font-size: 22px;
+    line-height: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+}

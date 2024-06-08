@@ -25,3 +25,8 @@
 .hours-list-items, .services-list-items {
     margin-bottom: 3px;
 }
+@media (max-width: 700px) {
+    #bottom-banner-container {
+        font-size: 14px;
+    }
+}

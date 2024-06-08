@@ -3,16 +3,20 @@
     flex-direction: column;
     height: fit-content;
     width: fit-content;
+    
 }
-#fast-reviews, #fast-review-authors {
+#fast-reviews, #fast-review-authors, #fast-review-authors-cars {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding: 30px;
     kerning: auto;
     color: #333333;
+    line-height: 27px;
+    color: white;
 }
-#fast-review-authors {
+#fast-review-authors, #fast-review-authors-cars {
     align-self: flex-end;
+    padding: 0 12px;
 }
 .fade {
     opacity: 0;

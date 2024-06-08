@@ -32,11 +32,13 @@
 }
 #intro-text-parent {
     padding: 0 40px;
+    margin-left: 4vw;
 }
 .intro-texts {
     text-indent: 22px;
     font-size: 22px;
-    color: #333333;
+    color: white;
+    line-height: 35px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 20px;

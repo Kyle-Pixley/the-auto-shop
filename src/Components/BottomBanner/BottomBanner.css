@@ -3,6 +3,7 @@
     justify-content: space-evenly;
     padding-top: 20px;
     padding-bottom: 40px;
+    padding-left: 10px;
     background: rgb(250,94,94);
     background: linear-gradient(0deg, rgba(250,94,94,1) 11%, rgba(233,170,170,1) 100%); 
     color: aliceblue;

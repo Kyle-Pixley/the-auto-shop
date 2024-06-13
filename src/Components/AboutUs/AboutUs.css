@@ -32,10 +32,11 @@
     justify-content: space-evenly;
 }
 #history-text-parent {
-    width: 50%;
+    width: 80%;
 }
 #our-history-title {
     margin: 12px;
+    color: black;
 }
 #our-history-text, #our-history-text-2, #philosophy-text, #philosophy-text-2 {
     font-size: 20px;
@@ -50,6 +51,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    float: right;
+    margin-left: 20px;
 }
 #philosophy-parent {
     margin: 12px 130px;
@@ -57,8 +60,44 @@
 }
 #philosophy-title {
     margin-bottom: 12px;
+    color: black;
 }
 #father-daughter-mechanics-image {
     height: 400px;
     width: 228px;
+}
+@media (max-width: 700px) {
+    #about-us-banner {
+        min-height: 25%;
+    }
+    #banner-title {
+        font-size: 30px;
+    }
+    #banner-text {
+        font-size: 20px;
+        text-align: center;
+        padding: 0 8vw;
+    }
+    #history-parent {
+        flex-direction: row;
+        padding: 0 5vw;
+    }
+    #image-border {
+        width: fit-content;
+        height: fit-content;
+        padding: 2vw;
+        align-self: flex-start;
+        margin: 0 0 10px 10px;
+    }
+    #father-daughter-mechanics-image {
+        width: 30vw;
+        height: auto;
+    }
+    #history-text-parent {
+        width: auto;
+    }
+    #our-history-text, #our-history-text-2 {
+        width: 100%;
+        text-align: justify;
+    }   
 }

@@ -92,3 +92,25 @@
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 20px;
 }
+@media (max-width: 700px) {
+    #contact-banner-title {
+        font-size: 7.3vw;
+    }
+    #contact-banner-text {
+        font-size: 4.5vw;
+        width: 85vw;
+    }
+    #contact-info-form-parent {
+        padding: 0 18px;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    #contact-info-parent {
+        margin: 0 auto 50px auto;
+    }
+    #contact-paragraph-parent {
+        width: 90vw;
+        text-align: center;
+        font-size: 5.8vw;
+    }
+}

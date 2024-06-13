@@ -51,7 +51,7 @@ function Nav({ isDesktop }) {
 
         <div id='active-component-container'>
             {activeComponent === 'home' && <Home isDesktop={isDesktop}/>}
-            {activeComponent === 'about-us' && <AboutUs />}
+            {activeComponent === 'about-us' && <AboutUs isDesktop={isDesktop}/>}
             {activeComponent === 'repair-services' && <RepairServices />}
             {activeComponent === 'reviews' && <Reviews />}
             {activeComponent === 'contact-us' && <ContactUs />}

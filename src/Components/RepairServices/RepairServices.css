@@ -31,7 +31,6 @@
     display: flex;
 }
 #intro-text-parent {
-    padding: 0 40px;
     margin-left: 4vw;
 }
 .intro-texts {
@@ -45,6 +44,8 @@
 }
 #margaret-working-image {
     height: 350px;
+    float: left;
+    margin-right: 3vw;
 }
 #repair-types-parent {
     display: flex;
@@ -68,4 +69,36 @@
 .repair-texts {
     font-size: 25px;
     margin-left: 12px;
+}
+@media (max-width: 700px) {
+    #repair-services-container {
+        overflow-x: hidden;
+    }
+    #intro-background {
+        min-height: 550px;
+    }
+    #intro-background-color {
+        padding: 0;
+    }
+    #repair-services-title-text {
+        font-size: 7.5vw;
+        text-align: center;
+    }
+    #intro-text-and-image {
+        padding: 0 3vw;
+    }
+    #margaret-working-image {
+        width: 35vw;
+        height: 36vw;
+    }
+    .intro-texts {
+        text-align: center;
+        width: 100%;
+        line-height: 1.1;
+    }
+
+    #repair-types-list {
+        margin-left: 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

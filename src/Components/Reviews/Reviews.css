@@ -65,3 +65,36 @@
     margin-bottom: 12px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+@media (max-width: 700px) {
+    #reviews-container {
+        overflow-x: hidden;
+    }
+    #review-banner > h1 {
+        text-align: center;
+        font-size: 8.5vw;
+    }
+    #image-rotating-review-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+    #customer-image {
+        width: 90vw;
+        margin-bottom: 10px;
+    }
+    #rotating-reviews {
+        width: 90vw;
+        height: 310px;
+    }
+    #customer-reviews-title {
+        font-size: 7.5vw;
+    }
+    #reviews-parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* width: 100%; */
+    }
+    .review-parents {
+        width: 80vw;
+    }
+}

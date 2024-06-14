@@ -4,6 +4,7 @@
     overflow: auto;
     height: 90vh;
     background-color: seashell;
+    overflow-x: hidden;
 }
 #contact-us-banner-parent {
     background: url(../../assets/auto-shop-background-cropped.png);
@@ -80,7 +81,8 @@
 #x-icon-c {
     margin-right: 21px;
 }
-#facebook-link, #x-link {
+#facebook-link, #x-link, .phone-email-links {
+    display: flex;
     font-size: 20px;
     text-decoration: none;
     color: black;

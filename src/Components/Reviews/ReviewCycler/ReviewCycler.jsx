@@ -15,7 +15,7 @@ function ReviewCycler() {
         // 4
         `"Man, this shop is top-notch! They fixed up my car faster than I could finish a burger. Great service, no BS. Check 'em out!"`,
         // 5 
-        `"It's not who you are underneath, it's what you do that defines you, and these guys are skilled, reliable and efficient mechanics."`,
+        `"It's not who you are underneath, it's what you drive that defines you, and these guys are skilled, reliable and efficient mechanics."`,
         // 6
         `"As leader of the Autobots, I place great trust in this auto shop. Their mechanics possess unparalleled skill and dedication, ensuring that I, Optimus Prime, am always battle-ready."`
     ]

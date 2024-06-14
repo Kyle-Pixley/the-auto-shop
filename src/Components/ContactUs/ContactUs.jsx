@@ -21,16 +21,22 @@ function ContactUs() {
                 <h1 style={{color: 'black'}}>Contact Information</h1>
                 <div id='contact-info-icons-text'>
                     <div className='contact-parents'>
+                    <a href='tel:15555678910' className='phone-email-links'>
                         <img src={PhoneIcon} className='phone-images' />
-                        <p className='contact-texts'>Shop: 1(234)567-8910</p>
+                        <p className='contact-texts'>Shop: 1(555)567-8910</p>
+                    </a>
                     </div>
                     <div className='contact-parents'>
+                    <a href='tel:15555678910' className='phone-email-links'>
                         <img src={PhoneIcon} className='phone-images' />
-                        <p className='contact-texts'>Towing: 1(234)567-8910</p>
+                        <p className='contact-texts'>Towing: 1(555)567-8910</p>
+                    </a>
                     </div>
                     <div className='contact-parents'>
+                    <a href='mailto:autoshop@auto.shop' className='phone-email-links'>
                         <img src={MailIcon} className='mail-images' />
                         <p className='contact-texts'>Email: autoshop@auto.shop</p>
+                    </a>
                     </div>
                     <div className='socials-parents'>
                         <a id='facebook-link'

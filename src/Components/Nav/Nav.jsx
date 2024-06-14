@@ -39,10 +39,10 @@ function Nav({ isDesktop }) {
 
                 <button id='repair-services-button' className='nav-buttons' onClick={() => changeActiveComponent('repair-services')}
                 style={{color: activeButton === 'repair-services' ? 'rgb(240,128,128)' : 'black'}}>Repair Services</button>
-            {isDesktop ? 
+            
                 <button id='repair-services-button' className='nav-buttons' onClick={() => changeActiveComponent('reviews')}
                 style={{color: activeButton === 'reviews' ? 'rgb(240,128,128)' : 'black'}}>Reviews</button>
-            : null}
+            
                 
                 <button id='repair-services-button' className='nav-buttons' onClick={() => changeActiveComponent('contact-us')}
                 style={{color: activeButton === 'contact-us' ? 'rgb(240,128,128)' : 'black'}}>Contact Us</button>
@@ -52,7 +52,8 @@ function Nav({ isDesktop }) {
         <div id='active-component-container'>
             {activeComponent === 'home' && <Home isDesktop={isDesktop}/>}
             {activeComponent === 'about-us' && <AboutUs isDesktop={isDesktop}/>}
-            {activeComponent === 'repair-services' && <RepairServices />}
+            {activeComponent === 'repair-services' && <RepairServices 
+            isDesktop={isDesktop} />}
             {activeComponent === 'reviews' && <Reviews />}
             {activeComponent === 'contact-us' && <ContactUs />}
         </div>

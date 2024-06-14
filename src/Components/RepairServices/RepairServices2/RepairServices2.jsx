@@ -17,8 +17,8 @@ import './RepairServices2.css';
 function RepairServices2() {
   return (
     <div id='repair-services-2-container'>
-      <h1 style={{color: 'black'}}>The Auto Shop services include...</h1>
-      <div style={{height:'6px',width:'30vw',backgroundColor: 'rgb(240,128,128)',marginTop: '25px', marginBottom: '30px'}}></div>
+      <h1 style={{color: 'black', textAlign: 'center'}}>The Auto Shop services include...</h1>
+      <div style={{height:'6px',width:'35vw',backgroundColor: 'rgb(240,128,128)',marginTop: '25px', marginBottom: '30px', borderRadius: '50%'}}></div>
 
       <div id='repair-types-container'>
         <div className='repair-types-parents'>

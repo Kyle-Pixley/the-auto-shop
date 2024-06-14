@@ -31,6 +31,7 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
 #history-text-parent {
     width: 80%;
 }
@@ -68,10 +69,11 @@
 }
 @media (max-width: 700px) {
     #about-us-banner {
-        min-height: 25%;
+        min-height: 17vh;
     }
     #banner-title {
         font-size: 30px;
+        margin-top: 0;
     }
     #banner-text {
         font-size: 20px;
@@ -79,7 +81,6 @@
         padding: 0 8vw;
     }
     #history-parent {
-        flex-direction: row;
         padding: 0 5vw;
     }
     #image-border {
@@ -98,6 +99,6 @@
     }
     #our-history-text, #our-history-text-2 {
         width: 100%;
-        text-align: justify;
+        text-align: center;
     }   
 }

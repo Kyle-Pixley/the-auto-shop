@@ -17,7 +17,7 @@ function Home({ isDesktop }) {
               <h1 id='auto-shop-title'>AUTO SHOP</h1>
               <div id='title-underline'></div>
               <h2 id='opening-line'>Welcome to The Auto Shop, where friendly service meets quality work for all your automotive needs!</h2>
-              <h2 id='address-line'>123 Fake Street, Burlington, VT 05401</h2>
+              <h2 id='address-line'>123 Fake Street,<br /> Burlington, VT 05401</h2>
             </div>
           </div>
         </div>

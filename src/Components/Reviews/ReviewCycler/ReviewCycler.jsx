@@ -17,7 +17,7 @@ function ReviewCycler() {
         // 5 
         `"It's not who you are underneath, it's what you drive that defines you, and these guys are skilled, reliable and efficient mechanics."`,
         // 6
-        `"As leader of the Autobots, I place great trust in this auto shop. Their mechanics possess unparalleled skill and dedication, ensuring that I, Optimus Prime, am always battle-ready."`
+        `"As leader of the Autobots, I place great trust in this auto shop. Their mechanics possess unparalleled skill, ensuring that the Autobots are always ready to Roll-Out!"`
     ]
 
     const listOfReviewAuthors = [
@@ -66,7 +66,7 @@ function ReviewCycler() {
             }, 1000);
         };
 
-        const intervalId = setInterval(updateIndex, 5000);
+        const intervalId = setInterval(updateIndex, 7000);
 
         return () => clearInterval(intervalId);
 
